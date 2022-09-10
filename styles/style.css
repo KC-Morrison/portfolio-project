@@ -35,6 +35,10 @@ p {
 	line-height: 1.5;
 }
 
+img {
+	margin-top: 100px;
+}
+
 .hero {
 	background-color: var(--branding-color);
 	text-align: center;
@@ -91,6 +95,10 @@ p {
 	}
 	h2 {
 		font-size: 44px;
+	}
+
+	img {
+		margin-top: 30px;
 	}
 
 	.hero h2 {
