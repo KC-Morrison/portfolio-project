@@ -68,6 +68,10 @@ img {
 	padding: 15px 30px;
 }
 
+.btn-branding:hover {
+	color: var(--secondary-color);
+}
+
 .main-section {
 	background-color: var(--secondary-color);
 }
@@ -83,6 +87,11 @@ img {
 	font-size: 18px;
 	padding: 15px 30px;
 	margin-bottom: 20px;
+}
+
+.btn-branding-outline:hover {
+	background-color: var(--branding-color);
+	color: var(--secondary-color);
 }
 
 .project-description {
