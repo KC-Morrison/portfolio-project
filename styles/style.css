@@ -146,6 +146,10 @@ img {
 	text-decoration: underline;
 }
 
+.image {
+	text-align: center;
+}
+
 @media (max-width: 960px) {
 	h1 {
 		font-size: 60px;
