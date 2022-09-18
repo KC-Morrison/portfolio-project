@@ -183,6 +183,14 @@ nav li.active a {
 	text-align: center;
 }
 
+footer .email-link {
+	text-align: center;
+	text-decoration: none;
+}
+.social-links {
+	text-align: center;
+}
+
 @media (max-width: 960px) {
 	h1 {
 		font-size: 60px;
