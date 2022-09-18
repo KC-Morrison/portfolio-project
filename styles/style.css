@@ -42,11 +42,13 @@ img {
 
 .nav-section {
 	background-color: var(--secondary-color);
-	max-width: 3000px;
+	max-width: 100%;
 }
 
 nav {
 	padding: 20px 0;
+	max-width: 1320px;
+	margin: 0 auto;
 }
 
 nav ul {
@@ -76,7 +78,7 @@ nav li.active a {
 .hero {
 	background-color: var(--branding-color);
 	text-align: center;
-	padding: 160px 20px;
+	padding: 130px 20px;
 }
 
 .hero h1 {
@@ -107,7 +109,8 @@ nav li.active a {
 }
 
 .project-introduction {
-	padding: 80px 0;
+	padding: 40px 0;
+	margin: 0;
 }
 
 .btn-branding-outline {
@@ -183,12 +186,34 @@ nav li.active a {
 	text-align: center;
 }
 
-footer .email-link {
+footer {
 	text-align: center;
-	text-decoration: none;
+	background-color: var(--branding-color);
+	padding: 30px 0;
 }
-.social-links {
-	text-align: center;
+
+footer .email-link {
+	text-decoration: none;
+	color: var(--secondary-color);
+	line-height: 2;
+	font-size: 20px;
+}
+
+footer .email-link:hover {
+	text-decoration: underline;
+}
+
+footer a {
+	color: var(--secondary-color);
+}
+
+footer a:hover {
+	color: var(--secondary-color);
+}
+
+.social-links a {
+	padding: 10px;
+	font-size: 20px;
 }
 
 @media (max-width: 960px) {
