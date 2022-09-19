@@ -186,6 +186,20 @@ nav li.active a {
 	text-align: center;
 }
 
+.project-link {
+	text-decoration: none;
+	color: var(--branding-color);
+}
+
+.project-link:hover {
+	text-decoration: underline;
+	color: var(--branding-color);
+}
+
+.text-muted {
+	margin-bottom: 8px;
+}
+
 footer {
 	text-align: center;
 	background-color: var(--branding-color);
@@ -211,9 +225,19 @@ footer a:hover {
 	color: var(--secondary-color);
 }
 
+.social-links {
+	margin-top: 8px;
+}
 .social-links a {
 	padding: 10px;
 	font-size: 20px;
+	transition: all 75ms ease-in-out;
+}
+
+.social-links a:hover {
+	background-color: grey;
+	border-radius: 50%;
+	padding: 5px 10px;
 }
 
 @media (max-width: 960px) {
