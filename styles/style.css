@@ -78,7 +78,7 @@ nav li.active a {
 .hero {
 	background-color: var(--branding-color);
 	text-align: center;
-	padding: 130px 20px;
+	padding: 100px 20px;
 }
 
 .hero h1 {
@@ -165,7 +165,7 @@ nav li.active a {
 }
 
 .contact h1 {
-	font-size: 45px;
+	font-size: 65px;
 	margin-bottom: 20px;
 }
 
@@ -180,6 +180,14 @@ nav li.active a {
 
 .contact a:hover {
 	text-decoration: underline;
+}
+
+.contact p {
+	font-size: 23px;
+}
+
+.contact .content {
+	margin-top: 0;
 }
 
 .image {
@@ -296,5 +304,9 @@ footer p {
 	.my-photo {
 		margin: 30px auto;
 		max-width: 300px;
+	}
+
+	.contact p {
+		font-size: 18px;
 	}
 }
