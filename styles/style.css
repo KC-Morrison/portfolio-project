@@ -137,7 +137,7 @@ nav li.active a {
 }
 
 .content-section {
-	padding: 160px 20px;
+	padding: 10px 20px;
 	background-color: var(--secondary-color);
 	margin: 0;
 }
@@ -206,10 +206,14 @@ footer {
 	padding: 30px 0;
 }
 
-footer .email-link {
+footer .email-link,
+.portfolio-link {
 	text-decoration: none;
 	color: var(--secondary-color);
 	line-height: 2;
+}
+
+footer .email-link {
 	font-size: 20px;
 }
 
@@ -217,7 +221,12 @@ footer .email-link:hover {
 	text-decoration: underline;
 }
 
-footer a {
+footer .portfolio-link:hover {
+	text-decoration: underline;
+}
+
+footer a,
+footer p {
 	color: var(--secondary-color);
 }
 
@@ -238,6 +247,10 @@ footer a:hover {
 	background-color: grey;
 	border-radius: 50%;
 	padding: 5px 10px;
+}
+
+footer p {
+	padding: 0 10px;
 }
 
 @media (max-width: 960px) {
@@ -273,7 +286,7 @@ footer a:hover {
 	}
 	.content-section {
 		text-align: center;
-		padding: 0;
+		padding: 10px 0;
 	}
 
 	.content-section h1 {
